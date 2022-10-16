@@ -162,6 +162,7 @@ class M3u8Downloader {
   }
 }
 
+@pragma('vm:entry-point')
 void callbackDispatcher() {
 
   // Initialize state necessary for MethodChannels.
